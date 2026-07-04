@@ -152,7 +152,7 @@ while running:
         text_rect_exit=exit_text.get_rect(center=exit_button.center)
         screen.blit(exit_text, text_rect_exit)
 
-        title_text=title_font.render("Welcome To Snake Game", True, WHITE)
+        title_text=title_font.render("Welcome To Snake Game", True, BLACK)
         title_rect=title_text.get_rect(center=(775,80))
         screen.blit(title_text, title_rect)
 
